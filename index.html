@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="icon" href="./assets/todoicon.jpeg" type="image/icon type">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1>Today's To do</h1>
+    </header>
+    <form >
+        <input type="text" maxlength="42" class="todo-input">
+        <button class="todo-add-btn">
+            <i class="fa fa-plus-square"></i>
+        </button>
+        <div class="select">
+            <select name="todos" class="todo-filter">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+    </form>
+
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>*Bored of the background, Refresh to change xD</p>
+            
+            <div class="social-handle-parent">
+                <div class="social-handles">
+                    <p>If you find any bug or have a feedback or suggestion, Please let me know.
+            </p> 
+                    <a href="mailto:srishtivishnoi2102@gmail.com" target="_blank">
+                        <i class="fa fa-envelope icons" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/srishtivishnoi2102" target="_blank">
+                        <i class="fa fa-github-square icons" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/srishti-vishnoi-2102/" target="_blank">
+                        <i class="fa fa-linkedin-square icons" aria-hidden="true"></i>
+                    </a>
+                    <a href="#">  <!-- insta -->
+                        <i class="fa fa-instagram icons" aria-hidden="true" target="_blank"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./app.js" ></script>
+
+</body>
+</html>
